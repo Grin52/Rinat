@@ -3,10 +3,15 @@
 int main(void)
 {
     int n;
-    while (scanf("%d ", &n) != 0)
+
+    //scanf("%d", &n);
+    
+    while (n != 0)
+    {
+        scanf("%d ", &n);
     
         printf ("%d ", n * n);
-    
+    }
 
     return 0;
     
