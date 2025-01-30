@@ -10,14 +10,19 @@ int main(void)
         {   printf("Input error");
             return 0;
         }
-    
 
-    int x1, x2, x3, x4, x5, x6, x7, x8, x9, x10;
+    int x;
+    int y;
+
+    
     while ( n > 0 )
     {
-        x1 = n % 10;
-        printf ("%d", x1);
+        x = n % 10;
+        printf ("x = %d\n", x);
         n = n / 10;
+        printf ("n = %d\n", n);
+        y = x * 10;
+        printf ("y = %d\n\n", y);
 
     }
     
