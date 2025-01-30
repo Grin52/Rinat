@@ -26,7 +26,6 @@ int main(void)
         b = c;
         i++;
     }   
-    //printf ("%d ", a, b, c); 
-
+    
     return 0;    
 }       

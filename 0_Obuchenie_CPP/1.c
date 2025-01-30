@@ -1,16 +1,18 @@
 #include <stdio.h>
-
+                                      // n = 123456789     x1 = 1, x2 = 2, x3 = 3 
 int main (void)
 {
-    int mi_var_i;
-    mi_var_i = 78;
-    double var_d1, var_d2;
-    var_d1 = var_d2 = 0.5;
+    int n;
+    scanf ("%d", &n);
+
+    int x1, x2, x3, x4, x5, x6, x7, x8, x9, x10;
+    while ( n > 0 )
+    {
+        x1 = n % 10;
+        printf ("%d", x1);
+        n = n / 10;
+
+    }
     
-    double d;
-    int a = getchar ();
-
-
-    return 0;
-
+    return 0;    
 }
