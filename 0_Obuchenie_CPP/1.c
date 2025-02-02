@@ -1,18 +1,31 @@
 #include <stdio.h>
-                                      // n = 123456789     x1 = 1, x2 = 2, x3 = 3 
-int main (void)
+
+int main()
 {
-    int n;
-    scanf ("%d", &n);
+int a;
+int b;
 
-    int x1, x2, x3, x4, x5, x6, x7, x8, x9, x10;
-    while ( n > 0 )
-    {
-        x1 = n % 10;
-        printf ("%d", x1);
-        n = n / 10;
+scanf("%d %d", &a, &b);
 
-    }
-    
-    return 0;    
+int n;    // большее число
+int m;    // меньшее число
+if (a > b){
+    n = a;
+    m = b;
+}    
+else if (a < b){
+    n = b;
+    m = a;
+}    
+else if (a == b){
+    printf ("Error\n");
 }
+//while (m > 0)
+//{
+    
+//}
+printf ("%d %d\n", n, m);
+
+return 0; 
+
+} 
