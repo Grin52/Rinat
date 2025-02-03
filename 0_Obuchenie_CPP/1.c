@@ -4,28 +4,21 @@ int main()
 {
 int a;
 int b;
-
-scanf("%d %d", &a, &b);
-
-int n;    // большее число
-int m;    // меньшее число
-if (a > b){
-    n = a;
-    m = b;
+if (scanf("%d %d", &a, &b) != 2) {
+    printf("Input error.");
+    return 0;
 }    
-else if (a < b){
-    n = b;
-    m = a;
+
+int n = a > b ? a : b;    // большее число
+int m = a < b ? a : b;    // меньшее число
+int x;
+
+while (m > 0 ){
+    x = n % m;
+    n = m;
+    m = x;
 }    
-else if (a == b){
-    printf ("Error\n");
-}
-//while (m > 0)
-//{
-    
-//}
-printf ("%d %d\n", n, m);
+printf ("%d\n", n);
 
 return 0; 
-
 } 
