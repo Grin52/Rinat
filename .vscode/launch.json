@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/C++/Git/Rinat/0_Obuchenie_CPP",
-      "program": "c:/C++/Git/Rinat/0_Obuchenie_CPP/build/Debug/outDebug",
+      "cwd": "c:/C++/Git/Rinat-1/9_cicle_while",
+      "program": "c:/C++/Git/Rinat-1/9_cicle_while/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
