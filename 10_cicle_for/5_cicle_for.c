@@ -10,13 +10,25 @@
 int main (void)
 {
     int n = 0;
-    scanf ("%d", &n);
+    scanf ("%d", &n);    
 
-    for (int i = n; n % i == 0; --i)
+    for (int i = n; i != 0; --i)
     {
-        printf("%d ", i);
+        int x = n / i;
+        if ( n % i == 0)
+            printf("%d ", x);
     }
-
+/*
+    while ( i != 0 )
+    {
+        int x = n / i;
+        if ( n % i == 0)
+        {
+            printf ("%d ", x);
+        }
+        --i;
+    }
+*/    
 
     return 0;
 }
