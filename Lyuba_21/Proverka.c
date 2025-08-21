@@ -8,6 +8,6 @@ int main (void)
     a = bite_memory;
     
     printf ("Hello Rinat\n");
-    printf ("Привет Ринат \n");
+    printf ("swerteargt \n");
     return 0;
 }
